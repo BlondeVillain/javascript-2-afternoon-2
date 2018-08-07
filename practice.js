@@ -1,90 +1,62 @@
-/* 
-  Once you complete a problem, refresh ./SpecRunner.html in your browser and check to see if the problem's test(s) are passing.
-  Passed tests will be indicated by a green circle.
-  Failed tests will be indicated by a red X.
-
-  You can refresh the page at any time to re-run all the tests.
-*/
-
 ////////// PROBLEM 1 //////////
-
-// Do not edit the code below.
-var arr = [10,20,30];
-// Do not edit the code above.
-
 /*
   Create a function named 'first' that is given 'arr' as an argument.
   Return the first item in the given array.
 */
 
-//Code Here
-
-
-
+var arr = [10,20,30];
+function first(arr){return arr[0]}
 ////////// PROBLEM 2 //////////
-
-// Do not edit the code below.
-var arr = [40,50,60];
-// Do not edit the code above.
-
 /*
   Create a function named 'last' that is given 'arr' as an argument. 
   Return the last item in the given array.
 */
 
-//Code Here
-
-
-
+var arr = [40,50,60];
+function last(arr){return arr[2]}
 ////////// PROBLEM 3 //////////
-
-// Do not edit the code below.
-var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
-// Do not edit the code above.
-
 /*
   Create a function named 'looper' that is given family as it's only argument. 
   Loop through the given array and alert every item in the array.
 */
 
-//Code Here
-
-
-
-////////// PROBLEM 4 //////////
-
-// Do not edit the code below.
-var letters = ['A', 'B', 'C', 'D', 'E'];
+var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 // Do not edit the code above.
-
+function looper(family)
+{for (i=0; i < family.length; i++)
+{alert(family[i])}}
+console.log(looper(family))
+////////// PROBLEM 4 //////////
 /*
   Write a function called reversedLooper that is given letters as it's only argument. 
   Loop through the given array backwards alerting every item in the array starting at the end.\
 */
 
-//Code Here
-
-
-
+var letters = ['A', 'B', 'C', 'D', 'E'];
+function reversedLooper(letters)
+{
+  for (i=letters.length -1; i > -1 ; i--)
+  {alert(letters[i])}
+}
+console.log(reversedLooper(letters))
 ////////// PROBLEM 5 //////////
-
-// Do not edit the code below.
-var nums = [1,2,3,6,22,98,45,23,22,12];
-// Do not edit the code above.
-
 /*
   Write a function named evenFinder that is given nums as it's only argument.
   Return an array that contains the even numbers from the nums array.
 */
-
-//Code Here
-
-
-
-
-
-
-
+var nums = [1,2,3,6,22,98,45,23,22,12];
+// Do not edit the code above.
+function evenFinder(nums)
+{
+   for (i=0; i < nums.length; i++)
+  {
+    if (nums[i] % 2 === 0)
+    { var evens = [nums[i]]
+    return evens;
+    }
+  }return evens;
+}console.log(evens)
+console.log(evenFinder(nums))
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
