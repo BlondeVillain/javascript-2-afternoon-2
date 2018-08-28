@@ -73,9 +73,10 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 
 /*
   Write a function called divider that is given one argument, numbersArray.
-  Have divider return an Array with the first item in the array being the evens array (all the even values from numbersArray) and the second item in the Array being the odds array (all the odd values from numbersArray).
+  Have divider return an Array with the first item in the array being the evens array 
+  (all the even values from numbersArray) and the second item in the Array being the odds array (all the odd values from numbersArray).
 */
-function(divider){
+function divider (numbersArray){
   
 }
 //Code Here
@@ -98,10 +99,10 @@ var getRandomArbitrary = function() {
   Loop through the array to see if that random number is in the array. 
   If it is, return true, if it's not, return false
 */
-
-//Code Here
-
-
+function finder(array){
+  arbnum = getRandomArbitrary();
+  return arr.includes(arbnum);
+}
 
 ////////// PROBLEM 8 //////////
 
