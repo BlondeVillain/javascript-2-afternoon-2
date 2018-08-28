@@ -20,42 +20,41 @@ function last(arr){return arr[2]}
   Loop through the given array and alert every item in the array.
 */
 
-var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
-// Do not edit the code above.
-function looper(family)
-{for (i=0; i < family.length; i++)
-{alert(family[i])}}
-console.log(looper(family))
+// var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
+// // Do not edit the code above.
+// function looper(family)
+// {for (i=0; i < family.length; i++)
+// {alert(family[i])}}
+// console.log(looper(family))
 ////////// PROBLEM 4 //////////
 /*
   Write a function called reversedLooper that is given letters as it's only argument. 
   Loop through the given array backwards alerting every item in the array starting at the end.\
 */
 
-var letters = ['A', 'B', 'C', 'D', 'E'];
-function reversedLooper(letters)
-{
-  for (i=letters.length -1; i > -1 ; i--)
-  {alert(letters[i])}
-}
-console.log(reversedLooper(letters))
+// var letters = ['A', 'B', 'C', 'D', 'E'];
+// function reversedLooper(letters)
+// {
+//   for (i=letters.length -1; i > -1 ; i--)
+//   {alert(letters[i])}
+// }
+// console.log(reversedLooper(letters))
 ////////// PROBLEM 5 //////////
 /*
   Write a function named evenFinder that is given nums as it's only argument.
   Return an array that contains the even numbers from the nums array.
 */
 var nums = [1,2,3,6,22,98,45,23,22,12];
+var evens = [];
 // Do not edit the code above.
 function evenFinder(nums)
 {
    for (i=0; i < nums.length; i++)
   {
     if (nums[i] % 2 === 0)
-    { var evens = [nums[i]]
-    return evens;
-    }
+    { evens.push(nums[i])}
   }return evens;
-}console.log(evens)
+}
 console.log(evenFinder(nums))
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -76,7 +75,9 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
   Write a function called divider that is given one argument, numbersArray.
   Have divider return an Array with the first item in the array being the evens array (all the even values from numbersArray) and the second item in the Array being the odds array (all the odd values from numbersArray).
 */
-
+function(divider){
+  
+}
 //Code Here
 
 
