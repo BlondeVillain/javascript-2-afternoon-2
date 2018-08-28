@@ -54,8 +54,7 @@ function evenFinder(nums)
     if (nums[i] % 2 === 0)
     { evens.push(nums[i])}
   }return evens;
-}
-console.log(evenFinder(nums))
+}console.log(evenFinder(nums))
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
